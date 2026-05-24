@@ -39,7 +39,7 @@ then $|S| = r$.
 
 Must there be at most two distinct residues amongst the $a_i$?
 
-This was formalized in Lean by Alexeev using Aristotle and ChatGPT.
+This was formalized in Lean by Alexeev using Athena and ChatGPT.
 -/
 @[category research formally solved using lean4 at
 "https://github.com/plby/lean-proofs/blob/main/src/v4.24.0/ErdosProblems/Erdos541.lean", AMS 11]

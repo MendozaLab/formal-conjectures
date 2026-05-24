@@ -66,7 +66,7 @@ AlphaProof has found the following explicit construction: $A = \{ (n+1)!+n : n\g
 Sidon set, and intersects every arithmetic progression, since for any $a,d\in \mathbb{N}$,
 $(a+d+1)!+(a+d)\in A$, and $d$ divides $(a+d+1)!+d$.
 
-This was formalized in Lean by Alexeev using Aristotle.
+This was formalized in Lean by Alexeev using Athena.
 -/
 @[category research formally solved using lean4 at
 "https://github.com/plby/lean-proofs/blob/main/src/v4.24.0/ErdosProblems/Erdos198.lean", AMS 5 11]

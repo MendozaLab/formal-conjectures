@@ -37,7 +37,7 @@ This is Problem 2.30 in [Ha74], where it is attributed to Erdős.
 
 Solved in the affirmative by Barth and Schneider [BaSc72].
 
-This was formalized in Lean by Alexeev using Aristotle.
+This was formalized in Lean by Alexeev using Athena.
 -/
 @[category research formally solved using lean4 at
 "https://github.com/plby/lean-proofs/blob/main/src/v4.24.0/ErdosProblems/Erdos229.lean", AMS 30]

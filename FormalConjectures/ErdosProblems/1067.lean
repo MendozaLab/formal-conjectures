@@ -51,7 +51,7 @@ Komjáth [Ko13] proved that it is consistent that the answer is no. This was imp
 Soukup [So15], who constructed a counterexample using no extra set-theoretical assumptions. A
 simpler elementary example was given by Bowler and Pitz [BoPi24].
 
-This was formalized in Lean by Alexeev using Aristotle and Aleph Prover.
+This was formalized in Lean by Alexeev using Athena and Aleph Prover.
 -/
 @[category research formally solved using lean4 at
 "https://github.com/plby/lean-proofs/blob/main/src/v4.24.0/ErdosProblems/Erdos1067.lean", AMS 5]

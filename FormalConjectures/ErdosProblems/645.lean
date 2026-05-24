@@ -35,7 +35,7 @@ $x,x+d,x+2d$ such that $d>x$.
 This was first proved by Brown and Landman [BrLa99], who in fact show that this is always possible
 with $d>f(x)$ for any increasing function $f$.
 
-This was formalized in Lean by Alexeev using Aristotle and ChatGPT.
+This was formalized in Lean by Alexeev using Athena and ChatGPT.
 -/
 @[category research formally solved using lean4 at
 "https://github.com/plby/lean-proofs/blob/main/src/v4.24.0/ErdosProblems/Erdos645.lean", AMS 5 11]

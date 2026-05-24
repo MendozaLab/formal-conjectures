@@ -36,7 +36,7 @@ def SegmentsDisjoint (seg1 seg2 : ℝ² × ℝ²) : Prop :=
 Can a finite set of disjoint unit segments in a unit square be maximal?
 Solved affirmatively by [Da85], who gave an explicit construction.
 
-This was formalized in Lean by Alexeev using Aristotle and ChatGPT.
+This was formalized in Lean by Alexeev using Athena and ChatGPT.
 -/
 @[category research formally solved using lean4 at
 "https://github.com/plby/lean-proofs/blob/main/src/v4.24.0/ErdosProblems/Erdos1071.lean", AMS 52]

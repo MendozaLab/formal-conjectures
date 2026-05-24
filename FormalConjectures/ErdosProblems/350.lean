@@ -65,7 +65,7 @@ reproduced in [BeEr74]. More generally, Ryavec's proof delivers that
 $\sum_{n\in A}\frac{1}{n}\leq 2-2^{1-\lvert A\rvert},$ with equality if and only if
 $A=\{1,2,\ldots,2^k\}$.
 
-This was formalized in Lean by Alexeev using Aristotle.
+This was formalized in Lean by Alexeev using Athena.
 -/
 @[category research formally solved using lean4 at
 "https://github.com/plby/lean-proofs/blob/main/src/v4.24.0/ErdosProblems/Erdos350.lean", AMS 5 11]

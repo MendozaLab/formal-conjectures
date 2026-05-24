@@ -89,7 +89,7 @@ Let $A\subset\mathbb{N}$ be infinite such that $\sum_{a \in A} \frac{1}{a} = \in
 there exist some $k\geq 1$ such that almost all integers have a divisor of the form $a+k$
 for some $a\in A$?
 
-This was formalized in Lean by Alexeev using Aristotle.
+This was formalized in Lean by Alexeev using Athena.
 -/
 @[category research formally solved using lean4 at
 "https://github.com/plby/lean-proofs/blob/main/src/v4.24.0/ErdosProblems/Erdos26.lean", AMS 11]

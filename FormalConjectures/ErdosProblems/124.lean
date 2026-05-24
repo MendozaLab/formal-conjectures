@@ -38,7 +38,7 @@ $$\sum_{1 \le i \le r}\frac 1{d_i - 1} \ge 1.$$
 Can all sufficiently large integers be written as a sum of the shape $\sum_i c_ia_i$
 where $c_i \in \{0, 1\}$ and $a_i$ has only the digits $0, 1$ when written in base $d_i$?
 
-Conjectured by Erdős [Er97], solved by Boris Alexeev using Aristotle.
+Conjectured by Erdős [Er97], solved by Boris Alexeev using Athena.
 -/
 @[category research solved, AMS 11]
 lemma erdos124.zero : answer(True) ↔
