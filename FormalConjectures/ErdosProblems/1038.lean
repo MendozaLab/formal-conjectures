@@ -27,10 +27,6 @@ public import FormalConjecturesUtil
  - [EHP58] Erdős, P., Herzog, F., Piranian, G. Metric properties of polynomials.
   J. Analyse Math. 6 (1958), 125--148.
 
-### AI disclosure
-
-Lean 4 code in this file was drafted with assistance from OpenAI Codex and Claude (Anthropic).
-The mathematical content and references are the author's own work.
 -/
 
 @[expose] public section
@@ -156,22 +152,6 @@ theorem erdos_1038.variants.sup_lowerBound : 2 * 2 ^ (1 / 2 : ℝ) ≤
   · simp only [eval_sub, eval_pow, eval_X, eval_C]
     rw [erdos_1038.variants.quadratic_extremizer, ENNReal.ofReal_mul zero_le_two,
       Real.sqrt_eq_rpow, ← ENNReal.ofReal_rpow_of_nonneg zero_le_two (by norm_num)]
-    norm_num
-
-open Polynomial in
-/-- The infimum in `erdos_1038.parts.i` is at most $2$: the polynomial $f(x)=x$ is admissible
-and its sublevel set $\{x : |x| < 1\} = (-1,1)$ has measure $2$. -/
-@[category textbook, AMS 28]
-theorem erdos_1038.variants.inf_le_two : ⨅ f : {f : Polynomial ℝ // f.Monic ∧ f ≠ 1 ∧
-    (f.roots.filter fun x => x ∈ Set.Icc (-1 : ℝ) 1).card = f.natDegree},
-    volume {x | |f.1.eval x| < 1} ≤ 2 := by
-  refine iInf_le_of_le ⟨X, monic_X, by simpa using X_ne_C (1 : ℝ), ?_⟩ ?_
-  · rw [roots_X, natDegree_X]
-    norm_num [Multiset.filter_singleton]
-  · have h : {x : ℝ | |eval x X| < 1} = Ioo (-1) 1 := by
-      ext x
-      simp [abs_lt]
-    rw [h, Real.volume_Ioo]
     norm_num
 
 open Polynomial in
